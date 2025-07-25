@@ -126,11 +126,6 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Data*: Over 41K annotated video recordings of CAD operations, offering significantly higher complexity in UI interaction learning for real-world engineering tasks (up to 20x longer time horizon than other datasets).  
   - *URL*: [https://arxiv.org/html/2505.24838v1](https://arxiv.org/html/2505.24838v1)
 
-- **HM-SYNC**  
-  - *Description*: A comprehensive multimodal dataset capturing human interactions with advanced manufacturing machinery (WAAM machine). It focuses on human-machine interaction (HMI) in an industrial setting.  
-  - *Data*: Approximately 3.87 hours of segmented interaction sequences (209,230 frames from each camera perspective) collected over 6 months, including 1228 unique interactions. Each frame contains a depth image, 32 skeleton joint coordinates in 3D, action labels (15 fundamental, 2 general human actions), interaction location labels (8 high-contact points), user IDs, camera view labels, action numbers, and timestamps. Data is in PNG (depth images) and array (3D joint data) formats.  
-  - *URL*: [https://asmedigitalcollection.asme.org/mechanicaldesign/article/147/4/044504/1212303/HM-SYNC-A-Multimodal-Dataset-of-Human-Interactions](https://asmedigitalcollection.asme.org/mechanicaldesign/article/147/4/044504/1212303/HM-SYNC-A-Multimodal-Dataset-of-Human-Interactions)
-
 - **AutomotiveUI-Bench-4K**  
   - *Description*: An open-source dataset for understanding and interacting with automotive infotainment systems, enabling seamless adaptation across different UI designs. It serves as a validation benchmark for automotive UI.  
   - *Data*: 998 images with 4,208 annotations focusing on interaction with in-vehicle infotainment (IVI) systems. Image sources are primarily photographs of IVI displays (due to screenshot limitations) and some direct screenshots (e.g., Android Auto). Annotation classes include "Test Action" (bounding box + imperative command) and "Expected Result" (bounding box + expected outcome + Pass/Fail status). Covers 15 automotive brands/OEMs (2018-2025 models). IVI UI in German and English, annotations in English.  
