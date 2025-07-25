@@ -2,6 +2,7 @@
 
 This curated list features top datasets for training GUI agents—AI systems that automate interactions with graphical user interfaces (GUIs) on computers, phones, and browsers. Ideal for researchers and developers, these datasets support tasks like clicking, typing, and navigating visual elements. Sorted by year (most recent first), each entry includes a name, short description, and URL. Perfect for advancing AI agent training, GUI automation, and computer interaction research.
 
+![GUI Agent Datasets by Year](chart.png)
 ---
 
 ## 2025 Datasets
