@@ -177,16 +177,6 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Data*: Not explicitly summarized in the survey, but uses environments like Android Virtual Device and WebArena-Lite.  
   - *URL*: [https://github.com/THUDM/VisualAgentBench](https://github.com/THUDM/VisualAgentBench)
 
-- **xLAM**  
-  - *Description*: Contributes to actionable agent development by providing a unified dataset format designed to support multi-turn interactions, reasoning, and function-calling tasks. Sourced from datasets like WebShop, ToolBench, and AgentBoard.  
-  - *Data*: Standardized data formats across diverse environments.  
-  - *URL*: [https://github.com/SalesforceAIResearch/xLAM](https://github.com/SalesforceAIResearch/xLAM)
-
-- **LAM**  
-  - *Description*: Specifically designed to train and evaluate Large Action Models (LAMs) for GUI environments, bridging natural language task understanding and action execution.  
-  - *Data*: Two core components: Task-Plan data (76,672 pairs) and Task-Action data (2,688 trajectories). Sourced from application documentation, WikiHow, and Bing search queries, enriched with GPT-4. Targets Windows OS, focusing on Microsoft Word. Includes GUI screenshots and metadata.  
-  - *URL*: [https://github.com/SalesforceAIResearch/xLAM](https://github.com/SalesforceAIResearch/xLAM)
-
 - **VGA**  
   - *Description*: A Vision Question Answering (VQA) dataset designed to minimize "hallucinations" in VLMs for GUI understanding by balancing attention between image and text inputs. It aims to enhance the model's accuracy in extracting information from images and aligning with human intent.  
   - *Data*: 63.8k high-quality VQA examples, developed using a "Referent Method," focusing on responses tied to visual content. Based on the Rico dataset.  
