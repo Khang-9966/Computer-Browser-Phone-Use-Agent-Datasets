@@ -6,6 +6,28 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 ## 2025
 
+- **ShowUI_desktop**  
+  - *Description*: A vision–language–action dataset designed to improve desktop GUI element grounding across diverse applications, featuring rich bounding-box and keypoint annotations.  
+  - *Data*: ~7,500 desktop screenshots spanning 15 applications; 8,000 element annotations with appearance, spatial-relation, and intent queries; relative bounding boxes and action keypoints for each element.  
+  - *URL*: [https://huggingface.co/datasets/Voxel51/ShowUI_desktop](https://huggingface.co/datasets/Voxel51/ShowUI_desktop)  
+
+# GUI Datasets (2024-2025)
+
+- **ShowUI_desktop**  
+  - *Description*: A vision–language–action dataset designed to improve desktop GUI element grounding across diverse applications, featuring rich bounding-box and keypoint annotations.  
+  - *Data*: ~7,500 desktop screenshots spanning 15 applications; 8,000 element annotations with appearance, spatial-relation, and intent queries; relative bounding boxes and action keypoints for each element.  
+  - *URL*: [https://huggingface.co/datasets/Voxel51/ShowUI_desktop](https://huggingface.co/datasets/Voxel51/ShowUI_desktop)  
+
+- **GUI-Robust**  
+  - *Description*: A comprehensive dataset explicitly crafted to evaluate GUI agent performance under seven real-world anomaly conditions (e.g., occlusion, dynamic content changes). It employs a semi-automated collection paradigm combining RPA-tool recordings and MLLM-assisted annotation.  
+  - *Data*: 10,000+ action sequences with seven anomaly types, task descriptions, stepwise instructions, screenshots, and grounding metadata; generated via a human-in-the-loop pipeline that reduces annotation time by 19×.  
+  - *URL*: [https://github.com/chessbean1/GUI-Robust](https://github.com/chessbean1/GUI-Robust)  
+
+- **VideoGUI**  
+  - *Description*: A multi-modal benchmark sourced from professional instructional videos, focusing on visually intensive, multi-step software tasks. It evaluates agents across hierarchical levels—high-level planning, middle-level planning, and atomic action execution.  
+  - *Data*: 86 complex tasks (avg. 22.7 actions each), 463 subtasks, 2.7K manually annotated actions with precise element locations, covering 11 software applications such as Adobe Photoshop and Stable Diffusion WebUI; includes video-derived screenshots and action transcripts.  
+  - *URL*: [https://github.com/showlab/videogui](https://github.com/showlab/videogui)  
+
 - **Mind2Web 2**  
   - *Description*: Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks that require real-time web browsing and extensive information synthesis, constructed with over 1000 hours of human labor. To address the challenge of evaluating time-varying and complex answers, we propose a novel Agent-as-a-Judge framework
   - *Data*: Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks.
@@ -64,6 +86,16 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 ---
 
 ## 2024
+
+- **GUI-Robust**  
+  - *Description*: A comprehensive dataset explicitly crafted to evaluate GUI agent performance under seven real-world anomaly conditions (e.g., occlusion, dynamic content changes). It employs a semi-automated collection paradigm combining RPA-tool recordings and MLLM-assisted annotation.  
+  - *Data*: 10,000+ action sequences with seven anomaly types, task descriptions, stepwise instructions, screenshots, and grounding metadata; generated via a human-in-the-loop pipeline that reduces annotation time by 19×.  
+  - *URL*: [https://github.com/chessbean1/GUI-Robust](https://github.com/chessbean1/GUI-Robust)  
+
+- **VideoGUI**  
+  - *Description*: A multi-modal benchmark sourced from professional instructional videos, focusing on visually intensive, multi-step software tasks. It evaluates agents across hierarchical levels—high-level planning, middle-level planning, and atomic action execution.  
+  - *Data*: 86 complex tasks (avg. 22.7 actions each), 463 subtasks, 2.7K manually annotated actions with precise element locations, covering 11 software applications such as Adobe Photoshop and Stable Diffusion WebUI; includes video-derived screenshots and action transcripts.  
+  - *URL*: [https://github.com/showlab/videogui](https://github.com/showlab/videogui)  
 
 - **MobileViews**  
   - *Description*: Large-scale mobile GUI dataset with over 600,000 screenshot-view hierarchy pairs from 20,000+ Android apps.  
