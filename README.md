@@ -1,4 +1,4 @@
-# Awesome GUI Agent Datasets for Computer and Phone Use
+# Awesome CUA / GUI Agent Datasets for Computer and Phone Use
 
 A curated list of datasets for training GUI agents—AI systems that automate interactions with graphical user interfaces on computers, phones, and browsers. These datasets support tasks like clicking, typing, and navigating visual elements, making them essential for researchers and developers advancing AI agent training and GUI automation. Sorted by year (most recent first), each entry includes the dataset name, a brief description, data summary, and a URL where available.
 
@@ -35,8 +35,6 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Description*: A high-quality dataset for training and utilizing VLM-based mobile agents, specifically focusing on Chinese mobile applications.  
   - *Data*: 1,007 trajectories across 28 different mobile applications, with 3,924 total steps. Includes screenshots and `data.jsonl` with full interaction trajectories, action history, instructions, system prompts, image dimensions, and detailed action parameters.  
   - *URL*: [https://mobile-r1.github.io/Mobile-R1/](https://mobile-r1.github.io/Mobile-R1/)  
-
-# GUI Datasets (2024-2025)
 
 - **ShowUI_desktop**  
   - *Description*: A vision–language–action dataset designed to improve desktop GUI element grounding across diverse applications, featuring rich bounding-box and keypoint annotations.  
