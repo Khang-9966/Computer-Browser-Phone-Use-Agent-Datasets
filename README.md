@@ -170,11 +170,6 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Data*: Image and text data from websites, designed for evaluating multimodal LLM web understanding and grounding.  
   - *URL*: [https://github.com/VisualWebBench](https://github.com/VisualWebBench)
 
-- **Cradle**  
-  - *Description*: A dataset for training GUI agents to perform tasks in simulated environments.  
-  - *Data*: Covers 4 games and multiple software, with screenshots as input and keyboard/mouse actions as output.  
-  - *URL*: [https://github.com/prodaft/cradle/](https://github.com/prodaft/cradle/)
-
 - **CRAB**  
   - *Description*: Cross-environment benchmark for multimodal agents, supporting Ubuntu and Android tasks.  
   - *Data*: 120 tasks in CRAB Benchmark-v0, with multimodal observations (screenshots) and Python-based task definitions/evaluations.  
