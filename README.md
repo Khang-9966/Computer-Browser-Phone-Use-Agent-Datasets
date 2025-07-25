@@ -10,7 +10,12 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Description*: A comprehensive collection of GUI grounding data covering web, mobile, and desktop interfaces, designed for versatile grounding instruction understanding and context-aware grounding.  
   - *Data*: Web Data (2.9M instructions, 173k images), Mobile Data (1.1M instructions, 104k images from AMEX), Desktop Data (150k instructions, 7.8k images from Ubuntu).  
   - *URL*: [https://huggingface.co/datasets/Aria-UI/Aria-UI_Data](https://huggingface.co/datasets/Aria-UI/Aria-UI_Data)
-    
+
+- **Multimodal-Mind2Web**  
+  - *Description*: A multimodal version of Mind2Web, pairing HTML documents with corresponding website screenshots to support the development of general-purpose web agents.  
+  - *Data*: 7,775 actions from 1,009 training tasks; 1,339 actions from 177 test tasks (same website), 1,019 actions from 142 test tasks (new website), 4,060 actions from 694 test tasks (new domain). Includes HTML and screenshot data.  
+  - *URL*: https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web
+
 - **GUIMid**  
   - *Description*: A consolidated mid-training dataset designed to enhance the foundational agentic capabilities of Vision Language Models (VLMs) for Graphical User Interface (GUI) tasks, by leveraging data from adjacent, non-GUI domains.  
   - *Data*: 300,000 samples, combining MathInstruct (150k), CodeI/O (20k), Olympiad Math (50k), and Multi-modal Math (80k).  
@@ -55,11 +60,6 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Description*: Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks that require real-time web browsing and extensive information synthesis, constructed with over 1000 hours of human labor. To address the challenge of evaluating time-varying and complex answers, we propose a novel Agent-as-a-Judge framework
   - *Data*: Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks.
   - *URL*: https://huggingface.co/datasets/osunlp/Mind2Web-2
-
-- **Multimodal-Mind2Web**  
-  - *Description*: A multimodal version of Mind2Web, pairing HTML documents with corresponding website screenshots to support the development of general-purpose web agents.  
-  - *Data*: 7,775 actions from 1,009 training tasks; 1,339 actions from 177 test tasks (same website), 1,019 actions from 142 test tasks (new website), 4,060 actions from 694 test tasks (new domain). Includes HTML and screenshot data.  
-  - *URL*: https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web
 
 - **Online-Mind2Web**  
   - *Description*: An online version of Mind2Web, featuring 300 high-quality tasks from 136 popular websites across domains like clothing, food, housing, and transportation, designed to evaluate web agent performance in real-world online environments.  
