@@ -6,10 +6,35 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 ## 2025
 
-- **ShowUI_desktop**  
-  - *Description*: A vision–language–action dataset designed to improve desktop GUI element grounding across diverse applications, featuring rich bounding-box and keypoint annotations.  
-  - *Data*: ~7,500 desktop screenshots spanning 15 applications; 8,000 element annotations with appearance, spatial-relation, and intent queries; relative bounding boxes and action keypoints for each element.  
-  - *URL*: [https://huggingface.co/datasets/Voxel51/ShowUI_desktop](https://huggingface.co/datasets/Voxel51/ShowUI_desktop)  
+- **Aria-UI/Aria-UI_Data**  
+  - *Description*: A comprehensive collection of GUI grounding data covering web, mobile, and desktop interfaces, designed for versatile grounding instruction understanding and context-aware grounding.  
+  - *Data*: Web Data (2.9M instructions, 173k images), Mobile Data (1.1M instructions, 104k images from AMEX), Desktop Data (150k instructions, 7.8k images from Ubuntu).  
+  - *URL*: [https://huggingface.co/datasets/Aria-UI/Aria-UI_Data](https://huggingface.co/datasets/Aria-UI/Aria-UI_Data)
+    
+- **GUIMid**  
+  - *Description*: A consolidated mid-training dataset designed to enhance the foundational agentic capabilities of Vision Language Models (VLMs) for Graphical User Interface (GUI) tasks, by leveraging data from adjacent, non-GUI domains.  
+  - *Data*: 300,000 samples, combining MathInstruct (150k), CodeI/O (20k), Olympiad Math (50k), and Multi-modal Math (80k).  
+  - *URL*: [https://github.com/hkust-nlp/GUIMid](https://github.com/hkust-nlp/GUIMid)  
+
+- **STEVE (Windows OS dataset)**  
+  - *Description*: A private Windows OS dataset for UI grounding, collected through a Windows virtual machine, OmniParser, screenshots, and accessibility tree data. It aims to train VLMs specialized in UI grounding.  
+  - *Data*: 10,000 desktop images and 80,000 UI elements, augmented with publicly available AITW data.  
+  - *URL*: [https://github.com/FanbinLu/STEVE](https://github.com/FanbinLu/STEVE)  
+
+- **Aguvis Data Collection (xlangai/aguvis-stage1 & xlangai/aguvis-stage2)**  
+  - *Description*: A large-scale cross-platform dataset of GUI agent trajectories featuring multimodal grounding and reasoning annotations, including inner monologue. Stage 1 focuses on computer/mobile grounding, while Stage 2 is for computer/mobile/desktop trajectory training.  
+  - *Data*: The full dataset viewer is currently unavailable, but previews show image filenames and conversations with human instructions and GPT-generated `pyautogui` actions. Associated with arXiv:2412.04454.  
+  - *URL*: [https://huggingface.co/datasets/xlangai/aguvis-stage1](https://huggingface.co/datasets/xlangai/aguvis-stage1), [https://huggingface.co/datasets/xlangai/aguvis-stage2](https://huggingface.co/datasets/xlangai/aguvis-stage2)  
+
+- **OS-Genesis**  
+  - *Description*: An interaction-driven pipeline that synthesizes high-quality, diverse GUI agent trajectory data without human supervision or predefined tasks, by using reverse task synthesis and a trajectory reward model.  
+  - *Data*: Includes raw collected triples (`<s_pre, a, s_post>`), complete trajectory data on HuggingFace, screenshots, and texts with State-of-Mind (SoM) information. Contains both Mobile and Web data with specific Google Drive links for screenshots and JSON data.  
+  - *URL*: [https://github.com/OS-Copilot/OS-Genesis](https://github.com/OS-Copilot/OS-Genesis)  
+
+- **Mobile-R1 (PG23/Mobile-R1)**  
+  - *Description*: A high-quality dataset for training and utilizing VLM-based mobile agents, specifically focusing on Chinese mobile applications.  
+  - *Data*: 1,007 trajectories across 28 different mobile applications, with 3,924 total steps. Includes screenshots and `data.jsonl` with full interaction trajectories, action history, instructions, system prompts, image dimensions, and detailed action parameters.  
+  - *URL*: [https://mobile-r1.github.io/Mobile-R1/](https://mobile-r1.github.io/Mobile-R1/)  
 
 # GUI Datasets (2024-2025)
 
@@ -201,6 +226,26 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Description*: A dataset for training agents to interact with screen-based interfaces.  
   - *Data*: Details not fully specified, but includes data for vision-language model-driven computer control under Apache-2.0 license.  
   - *URL*: [https://github.com/niuzaisheng/ScreenAgent](https://github.com/niuzaisheng/ScreenAgent)
+
+- **OpenDFM/MoGUI**  
+  - *Description*: A dataset for mobile GUI interaction, forming part of the MoGUI and MoCon projects. It aims to provide data for conversational agents on mobile GUIs.  
+  - *Data*: "MoGUI😈 data" released Feb 29, 2024. Specific data summary refers to an associated technical report.  
+  - *URL*: [https://huggingface.co/datasets/OpenDFM/MoGUI](https://huggingface.co/datasets/OpenDFM/MoGUI)  
+
+- **OpenDFM/MoCon**  
+  - *Description*: A dataset for mobile GUI interaction, also part of the MoGUI and MoCon projects.  
+  - *Data*: "MoCon🛡️ data" released Mar 1, 2024. Specific data summary refers to an associated technical report. Dataset viewer currently disabled.  
+  - *URL*: [https://huggingface.co/datasets/OpenDFM/MoCon](https://huggingface.co/datasets/OpenDFM/MoCon)  
+
+- **OpenDFM/MobA-MobBench**  
+  - *Description*: A benchmark dataset designed for evaluating mobile phone agents, supporting both English and Chinese languages.  
+  - *Data*: 50 tasks (rows) across 11 columns, including task IDs, types, descriptions (EN/ZH), involved applications, preparation steps, scoring milestones, and human expert steps. The dataset size is small (<1KB).  
+  - *URL*: [https://huggingface.co/datasets/OpenDFM/MobA-MobBench](https://huggingface.co/datasets/OpenDFM/MobA-MobBench)  
+
+- **WebUI (biglab/webui-all)**  
+  - *Description*: A large dataset of rendered web pages associated with automatically extracted metadata, created by crawling the web to enhance visual UI understanding with web semantics.  
+  - *Data*: Contains 400,000 web UIs. The Hugging Face version is a filtered subset of the original dataset. The raw dataset is available on Google Drive.  
+  - *URL*: [https://huggingface.co/datasets/biglab/webui-all](https://huggingface.co/datasets/biglab/webui-all)  
 
 ---
 
