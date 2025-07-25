@@ -6,6 +6,21 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 ## 2025
 
+- **Mind2Web 2**  
+  - *Description*: Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks that require real-time web browsing and extensive information synthesis, constructed with over 1000 hours of human labor. To address the challenge of evaluating time-varying and complex answers, we propose a novel Agent-as-a-Judge framework
+  - *Data*: Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks.
+  - *URL*: https://huggingface.co/datasets/osunlp/Mind2Web-2
+
+- **Multimodal-Mind2Web**  
+  - *Description*: A multimodal version of Mind2Web, pairing HTML documents with corresponding website screenshots to support the development of general-purpose web agents.  
+  - *Data*: 7,775 actions from 1,009 training tasks; 1,339 actions from 177 test tasks (same website), 1,019 actions from 142 test tasks (new website), 4,060 actions from 694 test tasks (new domain). Includes HTML and screenshot data.  
+  - *URL*: https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web
+
+- **Online-Mind2Web**  
+  - *Description*: An online version of Mind2Web, featuring 300 high-quality tasks from 136 popular websites across domains like clothing, food, housing, and transportation, designed to evaluate web agent performance in real-world online environments.  
+  - *Data*: 300 tasks from 136 websites, with fields including task_id (str), website (str), task_description (str), and reference_length (int).  
+  - *URL*: https://github.com/OSU-NLP-Group/Online-Mind2Web
+
 - **LearnGUI**  
   - *Description*: A dataset for studying illustration-based learning in mobile GUI agents, enhancing performance in unseen scenarios.  
   - *Data*: 2,252 offline and 101 online tasks across 73 apps, with high-quality human demonstrations, screenshots, and action sequences.  
