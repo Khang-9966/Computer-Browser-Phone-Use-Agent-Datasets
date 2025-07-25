@@ -1,11 +1,10 @@
 # Awesome GUI Agent Datasets for Computer and Phone Use
 
-This curated list features top datasets for training GUI agents—AI systems that automate interactions with graphical user interfaces (GUIs) on computers, phones, and browsers. Ideal for researchers and developers, these datasets support tasks like clicking, typing, and navigating visual elements. Sorted by year (most recent first), each entry includes a name, short description, and URL. Perfect for advancing AI agent training, GUI automation, and computer interaction research.
+A curated list of datasets for training GUI agents—AI systems that automate interactions with graphical user interfaces on computers, phones, and browsers. These datasets support tasks like clicking, typing, and navigating visual elements, making them essential for researchers and developers advancing AI agent training and GUI automation. Sorted by year (most recent first), each entry includes the dataset name, a brief description, and a URL where available.
 
-![GUI Agent Datasets by Year](chart.png)
 ---
 
-## 2025 Datasets
+## 2025
 
 - **LearnGUI**  
   - *Description*: A dataset for studying illustration-based learning in mobile GUI agents, enhancing performance in unseen scenarios.  
@@ -23,49 +22,25 @@ This curated list features top datasets for training GUI agents—AI systems tha
   - *Description*: Large-scale desktop region captioning dataset for advanced GUI agents, improving visual element understanding.  
   - *URL*: [https://arxiv.org/abs/2503.11170](https://arxiv.org/abs/2503.11170)
 
-- **GUI-World**  
-  - *Description*: Comprehensive GUI dataset with over 12K videos and 100K queries for evaluating multimodal LLM-based agents.  
-  - *URL*: [https://gui-world.github.io/](https://gui-world.github.io/)
-
 - **GUI-Lasagne**  
   - *Description*: Multi-level, large-scale dataset for training agents like SpiritSight, focusing on GUI understanding and grounding.  
   - *URL*: [https://arxiv.org/abs/2503.03196](https://arxiv.org/abs/2503.03196)
 
-- **AgentStudio (GroundUI)**  
-  - *Description*: Includes 18,000 instruction-screenshot pairs for evaluating GUI interactions in a versatile toolkit.  
-  - *URL*: [https://github.com/agenticevangelist/agent-studio](https://github.com/agenticevangelist/agent-studio)
-
-- **AgentStudio (IDMBench)**  
-  - *Description*: Dataset for evaluating multi-step agent trajectories in GUI interactions.  
-  - *URL*: [https://github.com/agenticevangelist/agent-studio](https://github.com/agenticevangelist/agent-studio)
-
-- **AgentStudio (CriticBench)**  
-  - *Description*: Dataset for assessing LLM-based agents’ reasoning and critique capabilities in GUI contexts.  
-  - *URL*: [https://github.com/agenticevangelist/agent-studio](https://github.com/agenticevangelist/agent-studio)
-
-- **GUICourse (GUIEnv)**  
-  - *Description*: Features 10M page-caption pairs for training vision-based GUI agents across web and mobile.  
-  - *URL*: [https://github.com/yiye3/GUICourse](https://github.com/yiye3/GUICourse)
-
-- **GUICourse (GUIAct)**  
-  - *Description*: Contains 67K single-step and 15K multi-step instructions for GUI actions.  
-  - *URL*: [https://github.com/yiye3/GUICourse](https://github.com/yiye3/GUICourse)
-
-- **GUICourse (GUIChat)**  
-  - *Description*: Offers 44K single-turn QAs and 6K multi-turn dialogues for GUI interactions.  
-  - *URL*: [https://github.com/yiye3/GUICourse](https://github.com/yiye3/GUICourse)
+- **TongUI / GUI-Net**  
+  - *Description*: Builds generalized GUI agents by learning from multimodal web tutorials across multiple OS.  
+  - *URL*: [https://tongui-agent.github.io/](https://tongui-agent.github.io/)
 
 - **ScreenSpot-Pro**  
   - *Description*: Benchmark for GUI grounding in high-resolution professional environments, ideal for multimodal LLMs.  
   - *URL*: [https://huggingface.co/datasets/Voxel51/ScreenSpot-Pro](https://huggingface.co/datasets/Voxel51/ScreenSpot-Pro)
 
-- **UEyes**  
-  - *Description*: Eye-tracking dataset for understanding visual saliency across various user interfaces.  
-  - *URL*: [https://github.com/YueJiang-nj/UEyes-CHI2023](https://github.com/YueJiang-nj/UEyes-CHI2023)
+- **WebGames**  
+  - *Description*: A dataset for training agents to play web-based games, focusing on interactive GUI tasks.  
+  - *URL*: Not available
 
 ---
 
-## 2024 Datasets
+## 2024
 
 - **DroidCall**  
   - *Description*: Dataset for training LLMs to invoke Android intents accurately, boosting mobile agent capabilities.  
@@ -91,21 +66,69 @@ This curated list features top datasets for training GUI agents—AI systems tha
   - *Description*: User-friendly benchmark with 100 tasks across 10 open-source apps for testing mobile LLM agents.  
   - *URL*: [https://MobileAgentBench.github.io](https://MobileAgentBench.github.io)
 
+- **Mobile3M**  
+  - *Description*: A dataset for mobile app understanding with 3 million examples for training GUI agents.  
+  - *URL*: Not available
+
 - **OmniACT**  
   - *Description*: Dataset for multimodal generalist agents performing tasks on desktop and web interfaces.  
   - *URL*: [https://arxiv.org/abs/2402.17553](https://arxiv.org/abs/2402.17553)
 
-- **TongUI / GUI-Net**  
-  - *Description*: Builds generalized GUI agents by learning from multimodal web tutorials across multiple OS.  
-  - *URL*: [https://tongui-agent.github.io/](https://tongui-agent.github.io/)
+- **VisualWebArena**  
+  - *Description*: A dataset for training agents to interact with web interfaces using visual inputs.  
+  - *URL*: Not available
+
+- **WebCanvas**  
+  - *Description*: A dataset for training agents to interact with web-based creative tools like drawing apps.  
+  - *URL*: Not available
+
+- **VisualWebBench**  
+  - *Description*: A benchmark for evaluating visual web interaction tasks.  
+  - *URL*: Not available
+
+- **Cradle**  
+  - *Description*: A dataset for training GUI agents to perform tasks in simulated environments.  
+  - *URL*: Not available
 
 - **CRAB**  
   - *Description*: Cross-environment benchmark for multimodal agents, supporting Ubuntu and Android tasks.  
   - *URL*: [https://crab.camel-ai.org/](https://crab.camel-ai.org/)
 
+- **GUI-World**  
+  - *Description*: Comprehensive GUI dataset with over 12K videos and 100K queries for evaluating multimodal LLM-based agents.  
+  - *URL*: [https://gui-world.github.io/](https://gui-world.github.io/)
+
+- **AgentStudio (GroundUI)**  
+  - *Description*: Includes 18,000 instruction-screenshot pairs for evaluating GUI interactions in a versatile toolkit.  
+  - *URL*: [https://github.com/agenticevangelist/agent-studio](https://github.com/agenticevangelist/agent-studio)
+
+- **AgentStudio (IDMBench)**  
+  - *Description*: Dataset for evaluating multi-step agent trajectories in GUI interactions.  
+  - *URL*: [https://github.com/agenticevangelist/agent-studio](https://github.com/agenticevangelist/agent-studio)
+
+- **AgentStudio (CriticBench)**  
+  - *Description*: Dataset for assessing LLM-based agents’ reasoning and critique capabilities in GUI contexts.  
+  - *URL*: [https://github.com/agenticevangelist/agent-studio](https://github.com/agenticevangelist/agent-studio)
+
+- **GUICourse (GUIEnv)**  
+  - *Description*: Features 10M page-caption pairs for training vision-based GUI agents across web and mobile.  
+  - *URL*: [https://github.com/yiye3/GUICourse](https://github.com/yiye3/GUICourse)
+
+- **GUICourse (GUIAct)**  
+  - *Description*: Contains 67K single-step and 15K multi-step instructions for GUI actions.  
+  - *URL*: [https://github.com/yiye3/GUICourse](https://github.com/yiye3/GUICourse)
+
+- **GUICourse (GUIChat)**  
+  - *Description*: Offers 44K single-turn QAs and 6K multi-turn dialogues for GUI interactions.  
+  - *URL*: [https://github.com/yiye3/GUICourse](https://github.com/yiye3/GUICourse)
+
+- **UEyes**  
+  - *Description*: Eye-tracking dataset for understanding visual saliency across various user interfaces.  
+  - *URL*: [https://github.com/YueJiang-nj/UEyes-CHI2023](https://github.com/YueJiang-nj/UEyes-CHI2023)
+
 ---
 
-## 2023 Datasets
+## 2023
 
 - **Android in the Wild (AITW)**  
   - *Description*: Large-scale dataset with 715,142 episodes for Android device control across 30,378 unique instructions.  
@@ -115,38 +138,98 @@ This curated list features top datasets for training GUI agents—AI systems tha
   - *Description*: Leverages AITW to evaluate Auto-GUI, an LLM-based task automation system for Android.  
   - *URL*: [https://github.com/cooelf/Auto-GUI](https://github.com/cooelf/Auto-GUI)
 
-- **WebShop**  
-  - *Description*: Dataset for training autonomous agents in online shopping with 1.18 million real-world products.  
-  - *URL*: [https://webshop-pnlp.github.io](https://webshop-pnlp.github.io)
+- **GUI Odyssey**  
+  - *Description*: A dataset for evaluating GUI agents across diverse tasks and environments.  
+  - *URL*: Not available
 
----
+- **AndroidEnv**  
+  - *Description*: A simulated environment for testing Android GUI agents.  
+  - *URL*: Not available
 
-## 2022 Datasets
+- **Mobile-Env**  
+  - *Description*: A dataset for training agents to interact with mobile apps in simulated environments.  
+  - *URL*: Not available
+
+- **AndroidWorld**  
+  - *Description*: An environment for building and benchmarking autonomous computer control agents.  
+  - *URL*: [https://github.com/MetaGLAD/AndroidWorld](https://github.com/MetaGLAD/AndroidWorld)
+
+- **RICOSCA**  
+  - *Description*: A dataset for Android app security analysis.  
+  - *URL*: Not available
+
+- **ANDROIDHOWTO**  
+  - *Description*: A dataset for training agents to follow step-by-step instructions on Android devices.  
+  - *URL*: Not available
+
+- **PixelHelp**  
+  - *Description*: Features 187 multi-step instructions for common tasks on Google Pixel phones.  
+  - *URL*: [https://paperswithcode.com/dataset/pixelhelp](https://paperswithcode.com/dataset/pixelhelp)
+
+- **UGIF**  
+  - *Description*: A dataset for understanding user interactions with graphical interfaces.  
+  - *URL*: Not available
 
 - **META-GUI**  
   - *Description*: Benchmark for GUI-based task-oriented dialogue systems with 1,125 dialogues across six domains.  
   - *URL*: [https://x-lance.github.io/META-GUI-Leaderboard/](https://x-lance.github.io/META-GUI-Leaderboard/)
 
+- **Mind2Web**  
+  - *Description*: A dataset for training agents to interact with web pages using natural language.  
+  - *URL*: Not available
+
+- **WebArena**  
+  - *Description*: A dataset for training agents to perform tasks on web pages.  
+  - *URL*: Not available
+
+- **WebVoyager**  
+  - *Description*: A dataset for training agents to navigate and interact with web environments.  
+  - *URL*: Not available
+
+- **Synapse**  
+  - *Description*: A dataset for training agents to perform tasks across multiple applications.  
+  - *URL*: Not available
+
+- **ASSISTGUI**  
+  - *Description*: A dataset for evaluating GUI agents in assistive technology contexts.  
+  - *URL*: Not available
+
+- **ScreenAgent**  
+  - *Description*: A dataset for training agents to interact with screen-based interfaces.  
+  - *URL*: Not available
+
 ---
 
-## 2021 Datasets
+## 2022
 
-- **Screen2Words**  
-  - *Description*: Dataset for generating concise language descriptions of mobile screens, with 112,085 summaries.  
+- **WebShop**  
+  - *Description*: Dataset for training autonomous agents in online shopping with 1.18 million real-world products.  
+  - *URL*: [https://webshop-pnlp.github.io](https://webshop-pnlp.github.io)
+
+- **UIBert (AppSim & RefExp)**  
+  - *Description*: A dataset for understanding and generating UI descriptions.  
+  - *URL*: Not available
+
+---
+
+## 2021
+
+- **Screen Annotation**  
+  - *Description*: Dataset for generating concise language descriptions of mobile screens.  
   - *URL*: [https://github.com/google-research-datasets/screen2words](https://github.com/google-research-datasets/screen2words)
 
+- **MoTIF (Mobile app Tasks with Iterative Feedback)**  
+  - *Description*: A dataset for training agents to perform tasks on mobile apps with user feedback.  
+  - *URL*: Not available
+
 ---
 
-## 2020 and Earlier
+## 2018
 
 - **RICO**  
-  - *Description*: Contains 72,000 unique Android app UIs, a foundational dataset for mobile GUI research (circa 2018).  
+  - *Description*: Contains 72,000 unique Android app UIs, a foundational dataset for mobile GUI research.  
   - *URL*: [https://www.kaggle.com/datasets/onurgunes1993/rico-dataset](https://www.kaggle.com/datasets/onurgunes1993/rico-dataset)
-
-- **PixelHelp**  
-  - *Description*: Features 187 multi-step instructions for common tasks on Google Pixel phones (circa 2019).  
-  - *URL*: [https://paperswithcode.com/dataset/pixelhelp](https://paperswithcode.com/dataset/pixelhelp)
 
 ---
 
-This Awesome List is a go-to resource for GUI agent datasets, covering training data for AI agents across mobile, desktop, and web environments. Contributions are welcome to keep it up-to-date with the latest advancements in computer interaction datasets!
+This Awesome List is a comprehensive resource for GUI agent datasets, covering mobile, desktop, and web environments. Contributions are welcome to keep it updated with the latest advancements in computer interaction datasets!
