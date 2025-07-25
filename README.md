@@ -36,7 +36,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **WebGames**  
   - *Description*: A dataset for training agents to play web-based games, focusing on interactive GUI tasks.  
-  - *URL*: Not available
+  - *URL*: https://github.com/convergence-ai/webgames
 
 ---
 
@@ -68,7 +68,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **Mobile3M**  
   - *Description*: A dataset for mobile app understanding with 3 million examples for training GUI agents.  
-  - *URL*: Not available
+  - *URL*: https://huggingface.co/datasets/xwk123/Mobile3M
 
 - **OmniACT**  
   - *Description*: Dataset for multimodal generalist agents performing tasks on desktop and web interfaces.  
@@ -76,19 +76,19 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **VisualWebArena**  
   - *Description*: A dataset for training agents to interact with web interfaces using visual inputs.  
-  - *URL*: Not available
+  - *URL*: https://github.com/web-arena-x/visualwebarena
 
 - **WebCanvas**  
   - *Description*: A dataset for training agents to interact with web-based creative tools like drawing apps.  
-  - *URL*: Not available
+  - *URL*: https://github.com/iMeanAI/WebCanvas
 
 - **VisualWebBench**  
   - *Description*: A benchmark for evaluating visual web interaction tasks.  
-  - *URL*: Not available
+  - *URL*: https://github.com/VisualWebBench
 
 - **Cradle**  
   - *Description*: A dataset for training GUI agents to perform tasks in simulated environments.  
-  - *URL*: Not available
+  - *URL*: https://github.com/prodaft/cradle/
 
 - **CRAB**  
   - *Description*: Cross-environment benchmark for multimodal agents, supporting Ubuntu and Android tasks.  
@@ -140,15 +140,15 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **GUI Odyssey**  
   - *Description*: A dataset for evaluating GUI agents across diverse tasks and environments.  
-  - *URL*: Not available
+  - *URL*: https://github.com/OpenGVLab/GUI-Odyssey
 
 - **AndroidEnv**  
   - *Description*: A simulated environment for testing Android GUI agents.  
-  - *URL*: Not available
+  - *URL*: https://github.com/deepmind/android_env
 
 - **Mobile-Env**  
   - *Description*: A dataset for training agents to interact with mobile apps in simulated environments.  
-  - *URL*: Not available
+  - *URL*: https://github.com/X-LANCE/Mobile-Env
 
 - **AndroidWorld**  
   - *Description*: An environment for building and benchmarking autonomous computer control agents.  
@@ -156,11 +156,11 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **RICOSCA**  
   - *Description*: A dataset for Android app security analysis.  
-  - *URL*: Not available
+  - *URL*: https://paperswithcode.com/dataset/ricosca
 
 - **ANDROIDHOWTO**  
   - *Description*: A dataset for training agents to follow step-by-step instructions on Android devices.  
-  - *URL*: Not available
+  - *URL*: https://github.com/debymf/generating_android_howto
 
 - **PixelHelp**  
   - *Description*: Features 187 multi-step instructions for common tasks on Google Pixel phones.  
@@ -168,7 +168,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **UGIF**  
   - *Description*: A dataset for understanding user interactions with graphical interfaces.  
-  - *URL*: Not available
+  - *URL*: https://paperswithcode.com/dataset/ugif
 
 - **META-GUI**  
   - *Description*: Benchmark for GUI-based task-oriented dialogue systems with 1,125 dialogues across six domains.  
@@ -176,27 +176,27 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **Mind2Web**  
   - *Description*: A dataset for training agents to interact with web pages using natural language.  
-  - *URL*: Not available
+  - *URL*: https://osu-nlp-group.github.io/Mind2Web/
 
 - **WebArena**  
   - *Description*: A dataset for training agents to perform tasks on web pages.  
-  - *URL*: Not available
+  - *URL*: https://webarena.dev/
 
 - **WebVoyager**  
   - *Description*: A dataset for training agents to navigate and interact with web environments.  
-  - *URL*: Not available
+  - *URL*: https://arxiv.org/abs/2401.13919
 
 - **Synapse**  
   - *Description*: A dataset for training agents to perform tasks across multiple applications.  
-  - *URL*: Not available
+  - *URL*: https://ltzheng.github.io/Synapse
 
 - **ASSISTGUI**  
   - *Description*: A dataset for evaluating GUI agents in assistive technology contexts.  
-  - *URL*: Not available
+  - *URL*: https://showlab.github.io/assistgui/
 
 - **ScreenAgent**  
   - *Description*: A dataset for training agents to interact with screen-based interfaces.  
-  - *URL*: Not available
+  - *URL*: https://github.com/niuzaisheng/ScreenAgent
 
 ---
 
@@ -208,7 +208,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **UIBert (AppSim & RefExp)**  
   - *Description*: A dataset for understanding and generating UI descriptions.  
-  - *URL*: Not available
+  - *URL*: https://github.com/google-research-datasets/uibert
 
 ---
 
@@ -220,7 +220,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **MoTIF (Mobile app Tasks with Iterative Feedback)**  
   - *Description*: A dataset for training agents to perform tasks on mobile apps with user feedback.  
-  - *URL*: Not available
+  - *URL*: https://vigilworkshop.github.io/static/papers-2021/26.pdf
 
 ---
 
