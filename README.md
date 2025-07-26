@@ -115,11 +115,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Description*: An Internet-scale dataset for training GUI-based web agents, generated entirely through an automated LLM pipeline without human annotations.  
   - *Data*: Covers 150k diverse websites sourced from Common Crawl and includes rich web navigation tasks, trajectories in Playwright API calls, and evaluations using LLM-based judges.  
   - *URL*: [https://huggingface.co/datasets/data-for-agents/insta-150k-v3](https://huggingface.co/datasets/data-for-agents/insta-150k-v3)
-
-- **GUIRoboTron-Speech**  
-  - *Description*: The first end-to-end autonomous GUI agent that directly accepts speech instructions and on-device screenshots to predict actions. It generates high-quality speech instructions by converting existing text instructions using a random timbre text-to-speech (TTS) model.  
-  - *Data*: Not explicitly summarized in the snippet, but the paper states "Our code and datasets are available at this https URL."  
-  - *URL*: [https://arxiv.org/abs/2506.11127](https://arxiv.org/abs/2506.11127)
+  - 
 
 - **VideoCAD**  
   - *Description*: A large-scale synthetic dataset for learning UI interactions and 3D reasoning from CAD software. It consists of annotated video recordings of CAD operations.  
@@ -131,11 +127,27 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Data*: 998 images with 4,208 annotations focusing on interaction with in-vehicle infotainment (IVI) systems. Image sources are primarily photographs of IVI displays (due to screenshot limitations) and some direct screenshots (e.g., Android Auto). Annotation classes include "Test Action" (bounding box + imperative command) and "Expected Result" (bounding box + expected outcome + Pass/Fail status). Covers 15 automotive brands/OEMs (2018-2025 models). IVI UI in German and English, annotations in English.  
   - *URL*: [https://paperswithcode.com/dataset/automotiveui-bench-4k](https://paperswithcode.com/dataset/automotiveui-bench-4k)
 
+- **OS-Atlas**  
+  - *Description*: A foundational GUI action model excelling at GUI grounding and Out-Of-Distribution (OOD) agentic tasks, leveraging a large open-source cross-platform GUI grounding corpus.  
+  - *Data*: Over 13 million GUI elements across mobile, desktop, and web platforms, synthesized using a specialized toolkit. Includes extensive evaluation across six benchmarks.  
+  - *URL*: [https://osatlas.github.io/](https://osatlas.github.io/)[](https://huggingface.co/papers/2410.23218)
+
+
+- **AGUVIS**  
+  - *Description*: A unified pure vision-based framework for autonomous GUI agents that operates across web, desktop, and mobile platforms, using vision-based observations and a consistent action space for better generalization.  
+  - *Data*: The AGUVIS dataset is split into two stages:  
+    - **Stage 1 (Grounding)**: 4.2 million samples for computer/mobile grounding training, including multimodal grounding annotations.  
+    - **Stage 2 (Planning and Reasoning)**: 1.3 million GUI agent trajectories with reasoning annotations across web, desktop, and mobile platforms.  
+  - *URL*: [https://github.com/xlang-ai/aguvis](https://github.com/xlang-ai/aguvis)[](https://huggingface.co/datasets/xlangai/aguvis-stage1)[](https://huggingface.co/datasets/xlangai/aguvis-stage2)
 
 ---
 
 ## 2024
 
+- **MultiUI**  
+  - *Description*: A large-scale dataset designed to enhance GUI agents’ text-rich visual understanding. It utilizes structured accessibility trees to generate high-quality multimodal instructions.  
+  - *Data*: 7.3 million multimodal instruction samples collected from 1 million websites, covering key web UI tasks such as element grounding, action prediction, and interaction modeling.  
+  - *URL*: [https://huggingface.co/datasets/neulab/MultiUI](https://huggingface.co/datasets/neulab/MultiUI)
 
 - **Mind2Web-Live**  
   - *Description*: This dataset focuses on dynamic evaluation using "key nodes," which represent critical intermediate states in web tasks.  
@@ -156,11 +168,6 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Description*: This dataset synthesizes high-quality trajectory data by leveraging web tutorials.  
   - *Data*: 4,902 trajectories with task metadata, step-by-step instructions, action sequences, visual observations, and reproducible native traces.  
   - *URL*: [https://agenttrek.github.io/](https://agenttrek.github.io/)
-
-- **MultiUI**  
-  - *Description*: A large-scale dataset designed to enhance GUI agents’ text-rich visual understanding. It utilizes structured accessibility trees to generate high-quality multimodal instructions.  
-  - *Data*: 7.3 million multimodal instruction samples collected from 1 million websites, covering key web UI tasks such as element grounding, action prediction, and interaction modeling.  
-  - *URL*: [https://huggingface.co/datasets/neulab/MultiUI](https://huggingface.co/datasets/neulab/MultiUI)
 
 - **ScreenAI**  
   - *Description*: Extends the scope of data collection to include both mobile and desktop interfaces, covering tasks such as screen annotation, question-answering, and navigation.  
@@ -279,7 +286,7 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **WebVoyager**  
   - *Description*: A dataset for training agents to navigate and interact with web environments.  
-  - *Data*: Browser screen perceptions as pixels, with mouse/keyboard actions, tested on real-world websites like Amazon and GitHub.  
+  - *Data*: Browser screen perceptions as pixels, with mouse/keyboard actions, tested on 15 real-world websites like Amazon and GitHub.  
   - *URL*: [https://arxiv.org/abs/2401.13919](https://arxiv.org/abs/2401.13919)
 
 - **ScreenAgent**  
@@ -289,12 +296,12 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 - **OpenDFM/MoGUI**  
   - *Description*: A dataset for mobile GUI interaction, forming part of the MoGUI and MoCon projects. It aims to provide data for conversational agents on mobile GUIs.  
-  - *Data*: "MoGUI😈 data" released Feb 29, 2024. Specific data summary refers to an associated technical report.  
+  - *Data*: It contains over 2.6 million GUI data from over 250,000 applications, each GUI data includes a screenshot and .xml metadata, and each application also includes a navigation graph, aiming to explicitly crawl the jump relationship between different GUIs during the crawling process
   - *URL*: [https://huggingface.co/datasets/OpenDFM/MoGUI](https://huggingface.co/datasets/OpenDFM/MoGUI)  
 
 - **OpenDFM/MoCon**  
   - *Description*: A dataset for mobile GUI interaction, also part of the MoGUI and MoCon projects.  
-  - *Data*: "MoCon🛡️ data" released Mar 1, 2024. Specific data summary refers to an associated technical report. Dataset viewer currently disabled.  
+  - *Data*: "MoCon🛡️ data" released Mar 1, 2024. Specific data summary refers to an associated technical report. 
   - *URL*: [https://huggingface.co/datasets/OpenDFM/MoCon](https://huggingface.co/datasets/OpenDFM/MoCon)  
 
 - **OpenDFM/MobA-MobBench**  
