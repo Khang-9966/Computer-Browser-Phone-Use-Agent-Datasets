@@ -1,4 +1,4 @@
-# Awesome CUA / GUI Agent Datasets for Computer and Phone Use
+# Awesome GUI Agent Datasets for Computer-Use and Phone-Use
 
 A curated list of datasets for training GUI agents—AI systems that automate interactions with graphical user interfaces on computers, phones, and browsers. These datasets support tasks like clicking, typing, and navigating visual elements, making them essential for researchers and developers advancing AI agent training and GUI automation. Sorted by year (most recent first), each entry includes the dataset name, a brief description, data summary, and a URL where available.
 
