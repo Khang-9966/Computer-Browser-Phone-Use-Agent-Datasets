@@ -11,6 +11,11 @@ A curated list of datasets for training GUI agents—AI systems that automate in
   - *Data*: Tasks across popular closed-source apps (e.g., Maps, YouTube) with executable verification scripts.
   - *URL*: https://arxiv.org/abs/2605.27761
 
+- **ClawBench**
+  - *Description*: An open benchmark and trace corpus for AI browser agents operating live websites, with isolated runs and replayable five-layer execution evidence.
+  - *Data*: V1 includes 153 tasks across 144 live websites, plus per-run video, screenshots, HTTP traffic, browser actions, and agent messages; V2 adds 130 tasks with rolling trace releases.
+  - *URL*: https://huggingface.co/datasets/NAIL-Group/ClawBench ; https://huggingface.co/datasets/NAIL-Group/ClawBenchV1Trace ; https://github.com/TIGER-AI-Lab/ClawBench
+
 ---
 
 ## 2025
