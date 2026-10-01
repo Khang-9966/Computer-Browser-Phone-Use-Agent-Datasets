@@ -6,10 +6,155 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 ## 2026
 
+- **AnyAppBench**
+  - *Description*: A live Android benchmark for measuring whether mobile GUI agents can transfer the same user goal across different apps instead of memorizing one interface.
+  - *Data*: Category-controlled tasks with matched goals executed on interchangeable Android applications; includes controlled UI-variation tests.
+  - *URL*: https://arxiv.org/abs/2609.34139
+
+- **RecreationBench (RecreationWorld)**
+  - *Description*: A held-out benchmark for hybrid computer-use agents that must inspect a running application, recreate it with code, and visually verify the result.
+  - *Data*: 250 tasks, with 50 tasks each for Ubuntu, macOS, Windows, Android, and Web; includes programmatic and visual assertions.
+  - *URL*: https://arxiv.org/abs/2609.22000 ; https://huggingface.co/datasets/Qwen/RecreationBench
+
+- **MobileWorldSafety**
+  - *Description*: A safety benchmark for evaluating mobile GUI agents under environmental prompt-injection attacks embedded in ordinary Android app content.
+  - *Data*: 142 risk tasks on real Android applications, with programmatic final-state risk indicators and a two-stage verifier.
+  - *URL*: https://arxiv.org/abs/2608.17659
+
+- **AgentCIBench**
+  - *Description*: A privacy benchmark testing whether computer-use agents preserve contextual integrity across personal applications.
+  - *Data*: Executable, deterministically scored scenarios covering visual co-location, task-ambiguity oversharing, and recipient misalignment; includes a 50-scenario end-to-end UI subset.
+  - *URL*: https://arxiv.org/abs/2606.23189 ; https://huggingface.co/datasets/UKPLab/agentcibench
+
+- **GUI vs. CLI Matched Benchmark**
+  - *Description*: A controlled benchmark comparing screen-only GUI agents with skill-mediated CLI agents under identical goals, initial states, and final-state verifiers.
+  - *Data*: 440 desktop tasks across 18 applications and 12 workflow categories.
+  - *URL*: https://arxiv.org/abs/2606.24551
+
+- **MacAgentBench**
+  - *Description*: A real-world macOS benchmark supporting modern computer-use frameworks and fine-grained partial-progress evaluation.
+  - *Data*: 676 tasks across 25 applications; nearly 60% require both GUI and CLI interaction.
+  - *URL*: https://arxiv.org/abs/2606.22557 ; https://github.com/JetAstra/MacAgentBench
+
+- **Workflow-GYM**
+  - *Description*: A long-horizon benchmark for evaluating GUI agents on professional workflows in specialized software rather than only common office applications.
+  - *Data*: 338 tasks across 6 primary domains, 23 subdomains, and more than 50 specialized software tools.
+  - *URL*: https://arxiv.org/abs/2606.11042 ; https://workflow-gym.github.io/
+
+- **WeaveBench**
+  - *Description*: A long-horizon benchmark requiring computer-use agents to interleave GUI interaction, command-line operations, and code execution in one trajectory.
+  - *Data*: 114 real-world tasks across 8 work domains, with trajectory-aware judging over deliverables, screenshots, logs, and action traces.
+  - *URL*: https://arxiv.org/abs/2606.09426 ; https://huggingface.co/datasets/wanlilll/WeaveBench
+
+- **DragOn**
+  - *Description*: A benchmark and training dataset for drag-based GUI grounding, complementing the predominantly click-focused GUI literature.
+  - *Data*: 286K training screenshots, 3.5M training tasks, and a 2,000-example evaluation suite across text highlighting, spreadsheet selection, element resizing, and sliders.
+  - *URL*: https://arxiv.org/abs/2606.06322 ; https://huggingface.co/datasets/Hcompany/DragOn
+
 - **AndroidDaily**
   - *Description*: A verifiable benchmark for mobile GUI agents on real-world closed-source Android applications, emphasizing automated result verification without human judges.
-  - *Data*: Tasks across popular closed-source apps (e.g., Maps, YouTube) with executable verification scripts.
+  - *Data*: 350 realistic tasks across 94 frequently used closed-source Android apps, with executable verification scripts.
   - *URL*: https://arxiv.org/abs/2605.27761
+
+- **CUA-Gym**
+  - *Description*: A scalable collection of verifiable RLVR training tasks for computer-use agents, pairing each instruction with an executable environment setup and programmatic reward.
+  - *Data*: The paper reports 32,112 verified tuples across 110 desktop/web environments; the public Hugging Face release currently exposes 10,910 task records.
+  - *URL*: https://arxiv.org/abs/2605.25624 ; https://huggingface.co/datasets/xlangai/CUA-Gym
+
+- **SimuWoB**
+  - *Description*: A fully synthetic and reproducible benchmark that simulates realistic mobile apps as backend-free webpages with automatically generated rewards.
+  - *Data*: 120 mobile GUI tasks covering multiple task types and difficulty levels, including long-horizon interactions.
+  - *URL*: https://arxiv.org/abs/2605.25160
+
+- **WindowsWorld**
+  - *Description*: A process-centric Windows benchmark focused on professional, cross-application workflows with intermediate subgoal inspection.
+  - *Data*: 181 tasks across 17 applications, averaging 5.0 subgoals; 78% of tasks involve multiple applications.
+  - *URL*: https://arxiv.org/abs/2604.27776 ; https://github.com/HITsz-TMG/WindowsWorld
+
+- **DynamicGUIBench**
+  - *Description*: An online desktop benchmark for GUI agents operating in highly dynamic interfaces where important visual states may change between actions.
+  - *Data*: 500 runnable tasks across 10 desktop application domains after the August 2026 expansion.
+  - *URL*: https://arxiv.org/abs/2604.25380 ; https://huggingface.co/datasets/L1007555652/osworld_env
+
+- **FedGUI**
+  - *Description*: A federated-learning benchmark for GUI agents across heterogeneous platforms, devices, operating systems, and data sources.
+  - *Data*: Six curated datasets spanning mobile, web, and desktop and covering four heterogeneity dimensions.
+  - *URL*: https://arxiv.org/abs/2604.14956 ; https://github.com/wwh0411/FedGUI
+
+- **GUI-Perturbed**
+  - *Description*: A controlled robustness dataset for testing whether GUI grounders rely on brittle visual shortcuts under layout, styling, zoom, text, and instruction perturbations.
+  - *Data*: 3,120 examples organized into 8 evaluation splits from 4 visual perturbations crossed with 2 instruction types.
+  - *URL*: https://arxiv.org/abs/2604.14262 ; https://huggingface.co/datasets/figai/GUI-Perturbed
+
+- **Turing Test on Screen / Agent Humanization Benchmark (AHB)**
+  - *Description*: A mobile GUI benchmark measuring how closely agent touch behavior resembles human interaction and whether agents can avoid behavioral detection.
+  - *Data*: High-fidelity touch and sensor dynamics collected across 21 mobile applications, with metrics balancing imitability and task utility.
+  - *URL*: https://arxiv.org/abs/2604.09574 ; https://huggingface.co/datasets/lyyang2766/Passing-the-Turing-Test-on-Screen-Agent-Humanization-Benchmark
+
+- **ClawBench**
+  - *Description*: A live-web benchmark for everyday online tasks, evaluated using intercepted network requests and execution traces rather than page-text matching alone.
+  - *Data*: The paper introduces 283 tasks across 163 production websites; the continuously maintained public leaderboard may expose a smaller active subset.
+  - *URL*: https://arxiv.org/abs/2604.08523 ; https://claw-bench.com/
+
+- **CUA-World (Gym-Anything)**
+  - *Description*: A large interactive computer-use dataset automatically built by converting professional software into executable agent environments.
+  - *Data*: More than 10,000 long-horizon tasks across 200 software applications and all 22 major occupational groups, plus a 200-task CUA-World-Long subset.
+  - *URL*: https://arxiv.org/abs/2604.06126 ; https://cmu-l3.github.io/gym-anything/
+
+- **GUI-HalluBench**
+  - *Description*: A benchmark dedicated to hallucination in GUI grounding, separating structural screen parsing from grounding under hallucination-inducing conditions.
+  - *Data*: Two complementary subsets: GUI parsing and hallucination-focused grounding, with public evaluation code and data.
+  - *URL*: https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Exposing_and_Evaluating_Hallucinations_for_GUI_Grounding_CVPR_2026_paper.pdf ; https://github.com/ant-research/GUIHalluBench
+
+- **PSPA-Bench**
+  - *Description*: A benchmark for personalized smartphone GUI agents, designed to measure adaptation to individual workflows, preferences, and long-term context.
+  - *Data*: More than 12,855 personalized instructions across 10 daily-use scenarios and 22 mobile applications.
+  - *URL*: https://arxiv.org/abs/2603.29318
+
+- **GUIDE**
+  - *Description*: A video benchmark for understanding user behavior, inferring intent, and deciding when and how to assist during open-ended GUI workflows.
+  - *Data*: 67.5 hours of screen recordings from 120 novice-user demonstrations with think-aloud narration across 10 software applications.
+  - *URL*: https://arxiv.org/abs/2603.25864 ; https://huggingface.co/datasets/saelyne/GuideBench
+
+- **GUI-CEval**
+  - *Description*: A hierarchical Chinese benchmark evaluating the full mobile-agent capability chain on physical devices, from perception and planning to execution and self-evaluation.
+  - *Data*: Tasks collected and manually verified across 201 mainstream apps and four device types.
+  - *URL*: https://arxiv.org/abs/2603.15039
+
+- **ProBench**
+  - *Description*: A mobile GUI benchmark that evaluates both final state and action process, addressing cases where an agent reaches the correct state through an invalid workflow.
+  - *Data*: More than 200 challenging mobile tasks covering common scenarios, with both state-related and process-related evaluation.
+  - *URL*: https://ojs.aaai.org/index.php/AAAI/article/view/39974
+
+- **AmbiBench**
+  - *Description*: A mobile GUI benchmark for ambiguous, evolving, and multi-turn user instructions in real-world applications.
+  - *Data*: 240 ecologically valid tasks across 25 applications, evaluated with the MUSE multi-agent user-satisfaction evaluator.
+  - *URL*: https://arxiv.org/abs/2602.11750
+
+- **MemGUI-Bench**
+  - *Description*: A memory-centric benchmark for mobile GUI agents operating across dynamic environments and multiple sessions.
+  - *Data*: 128 tasks across 26 applications; 89.8% require cross-temporal or cross-spatial memory.
+  - *URL*: https://arxiv.org/abs/2602.06075
+
+- **VenusBench-Mobile**
+  - *Description*: A challenging, user-centric online benchmark with capability diagnostics for perception, understanding, decision-making, action, and memory.
+  - *Data*: 149 primary tasks across 27 open-source Android apps, 10 intent categories, and roughly 80 environment variations.
+  - *URL*: https://arxiv.org/abs/2604.06182 ; https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile
+
+- **MobileBench-OL**
+  - *Description*: A real-world online benchmark for Chinese mobile GUI agents, covering execution, complex reasoning, long-tail behavior, and noise robustness.
+  - *Data*: 1,080 tasks from 80 Chinese applications, divided into five evaluation subsets.
+  - *URL*: https://arxiv.org/abs/2601.20335 ; https://github.com/xiaomi-research/mobilebench-ol
+
+- **AgencyBench-V2**
+  - *Description*: A long-context benchmark for autonomous agents completing realistic digital work through mouse, keyboard, command-line, screenshots, and generated deliverables.
+  - *Data*: 138 tasks across 32 real-world long-horizon scenarios and 6 agentic capability categories, with detailed rubrics and evaluation scripts.
+  - *URL*: https://arxiv.org/abs/2601.11044 ; https://huggingface.co/datasets/GAIR/AgencyBench
+
+- **GUI-Drag / ScreenDrag**
+  - *Description*: A large-scale text-dragging training dataset and a dedicated benchmark for selecting, highlighting, and dragging text in GUIs.
+  - *Data*: GUI-Drag contains 161K synthesized training examples; ScreenDrag contains 5,333 evaluation examples across three levels of interface context.
+  - *URL*: https://arxiv.org/abs/2601.06031 ; https://huggingface.co/datasets/osunlp/GUI-Drag-dataset
 
 ---
 
