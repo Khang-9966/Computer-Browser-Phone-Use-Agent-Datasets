@@ -6,6 +6,11 @@ A curated list of datasets for training GUI agents—AI systems that automate in
 
 ## 2026
 
+- **Slesh Web Agent Trajectories (sample)**
+  - *Description*: Human-demonstrated, verified web task completions on real websites (shopping, finance, travel, jobs, entertainment) for training and evaluating browser and computer-use agents.
+  - *Data*: Task instruction, full action sequence with natural-language step descriptions, target elements, coordinates, keyboard input, screenshot per step and network calls; free sample of a 50K+ trajectory collection across 1,200+ domains.
+  - *URL*: https://huggingface.co/datasets/SleshAI/web-agent-trajectories-sample ; https://lab.slesh.ai/computer-use
+
 - **AnyAppBench**
   - *Description*: A live Android benchmark for measuring whether mobile GUI agents can transfer the same user goal across different apps instead of memorizing one interface.
   - *Data*: Category-controlled tasks with matched goals executed on interchangeable Android applications; includes controlled UI-variation tests.
